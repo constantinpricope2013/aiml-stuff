@@ -1,0 +1,226 @@
+<aiml>
+
+
+
+
+
+
+<category>
+    <pattern>Buna</pattern>
+    <template>Ce va intereseaza astazi:
+<button>
+    <text>Device</text>
+    <postback>device</postback>
+</button>
+<button>
+    <text>Servicii</text>
+    <postback>servicii</postback>
+</button></template>
+</category>
+<category><pattern>DEVICE</pattern><template>Avem doar doua tipuri astazi
+<button>
+    <text>Samsung Galaxy S10 5G</text>
+    <postback>galaxy s10</postback>
+</button>
+<button>
+    <text>Xiaomi Redmi Note 8t </text>
+    <postback>Xiaomi Redmi Note 8t</postback>
+</button></template></category>
+<category><pattern>GALAXY S10</pattern><template>Ce va intereseaza sa stiti despre telefon?
+<button>
+    <text> camera </text>
+    <postback>camera </postback>
+</button>
+<button>
+    <text>Memorie Ram </text>
+    <postback>Memorie Ram </postback>
+</button>
+<button>
+    <text> utilitate </text>
+    <postback>utilitate </postback>
+</button>
+<button>
+    <text>Aspecte noi aduse telefonului </text>
+    <postback>Aspecte noi aduse telefonului </postback>
+</button>
+
+</template></category>
+<category><pattern>CAMERA </pattern><template>Add response for CAMERA </template></category>
+<category><pattern>MEMORIE RAM </pattern><template>Add response for MEMORIE RAM </template></category>
+<category><pattern>UTILITATE </pattern><template>Add response for UTILITATE </template></category>
+<category><pattern>ASPECTE NOI ADUSE TELEFONULUI </pattern><template>Add response for ASPECTE NOI ADUSE TELEFONULUI </template></category>
+<category><pattern>XIAOMI REDMI NOTE 8T</pattern><template>Add response for XIAOMI REDMI NOTE 8T</template></category>
+<category><pattern>SERVICII</pattern><template>Avem urmatoarele servicii
+<button>
+    <text>ITelefonie mobila</text>
+    <postback>Telefonie mobila </postback>
+</button>
+<button>
+    <text>Televiziune </text>
+    <postback>Televiziune </postback>
+</button></template></category>
+<category><pattern>TELEFONIE MOBILA </pattern><template>Optiuni cu internet 4G
+<button>
+    <text>da </text>
+    <postback>da </postback>
+</button>
+<button>
+    <text>As dori 5G</text>
+    <postback>As dori 5G</postback>
+</button>
+<button>
+    <text>Vreau o oferta avantajoasa</text>
+    <postback>Vreau o oferta avantajoasa </postback>
+</button>
+<button>
+    <text>As dori internet nelimitat</text>
+    <postback>As dori internet nelimitat</postback>
+</button>
+<button>
+    <text>Doresc un telefon la abonament</text>
+    <postback>Doresc un telefon la abonament</postback>
+</button>
+
+   </template></category>
+<category><pattern>DA </pattern><template>Add response for DA </template></category>
+<category><pattern>AS DORI 5G</pattern><template>In legatura cu aceasta optiune puteti alege sa va informati despre 
+<button>
+    <text>Avantajele </text>
+    <postback>Avantajele </postback>
+</button>
+<button>
+    <text>Oferte speciale</text>
+    <postback>oferte speciale </postback>
+</button>
+<button>
+    <text>Pretul </text>
+    <postback>Pretul</postback>
+</button>
+<button>
+    <text>Abonament </text>
+    <postback>Abonament </postback>
+</button>
+<button>
+    <text>Utilizarea pe piata </text>
+    <postback>Utilizarea pe piata </postback>
+</button></template></category>
+<category><pattern>AVANTAJELE </pattern><template>Add response for AVANTAJELE </template></category>
+<category><pattern>OFERTE SPECIALE </pattern><template>Add response for OFERTE SPECIALE </template></category>
+<category><pattern>PRETUL</pattern><template>Add response for PRETUL</template></category>
+<category><pattern>ABONAMENT </pattern><template>Add response for ABONAMENT </template></category>
+<category><pattern>UTILIZAREA PE PIATA </pattern><template>Add response for UTILIZAREA PE PIATA </template></category>
+<category><pattern>VREAU O OFERTA AVANTAJOASA </pattern><template>Va putem oferi urmatoarele 
+<button>
+    <text>Un bonament </text>
+    <postback>Un bonament </postback>
+</button>
+<button>
+    <text>Optiuni PrePay</text>
+    <postback>Optiuni PrePay</postback>
+</button>
+<button>
+    <text>Optiuni de grup </text>
+    <postback>Optiuni de grup </postback>
+</button>
+<button>
+    <text>Yoxo </text>
+    <postback>Yoxo </postback>
+</button>
+<button>
+    <text>PrePay</text>
+    <postback>PrePay</postback>
+</button></template></category>
+<category><pattern>UN BONAMENT </pattern><template>Add response for UN BONAMENT </template></category>
+<category><pattern>OPTIUNI PREPAY</pattern><template>Add response for OPTIUNI PREPAY</template></category>
+<category><pattern>OPTIUNI DE GRUP </pattern><template>Add response for OPTIUNI DE GRUP </template></category>
+<category><pattern>YOXO </pattern><template>Add response for YOXO </template></category>
+<category><pattern>PREPAY</pattern><template>Add response for PREPAY</template></category>
+<category><pattern>AS DORI INTERNET NELIMITAT</pattern><template>internetul nelimitat dispune de urmatoarele
+<button>
+    <text>internet prin fibra+ Tv+mobil </text>
+    <postback>internet prin fibra+ Tv+mobil </postback>
+</button>
+<button>
+    <text>Internet  fix  </text>
+    <postback>Internet  fix </postback>
+</button>
+<button>
+    <text>Internet mobil </text>
+    <postback>Internet mobil  </postback>
+</button>
+<button>
+    <text>Oferte pentru clienti fideli </text>
+    <postback>Oferte pentru clienti fideli </postback>
+</button>
+<button>
+    <text>Viteza </text>
+    <postback>Viteza </postback>
+</button></template></category>
+<category><pattern>INTERNET PRIN FIBRA+ TV+MOBIL </pattern><template>Add response for INTERNET PRIN FIBRA+ TV+MOBIL </template></category>
+<category><pattern>INTERNET  FIX </pattern><template>Add response for INTERNET  FIX </template></category>
+<category><pattern>INTERNET MOBIL  </pattern><template>Add response for INTERNET MOBIL  </template></category>
+<category><pattern>OFERTE PENTRU CLIENTI FIDELI </pattern><template>Add response for OFERTE PENTRU CLIENTI FIDELI </template></category>
+<category><pattern>VITEZA </pattern><template>Add response for VITEZA </template></category>
+<category><pattern>DORESC UN TELEFON LA ABONAMENT</pattern><template>Avem urmatoarele oferte 
+<button>
+    <text>Pachete avantajoase </text>
+    <postback>Pachete avantajoase </postback>
+</button>
+<button>
+    <text>Doar Tv </text>
+    <postback>Doar Tv </postback>
+</button>
+<button>
+    <text>Doar internet</text>
+    <postback>Doar internet</postback>
+</button>
+<button>
+    <text>Un telefon si un abonament la preturi super mici  </text>
+    <postback>Un telefon si un abonament la preturi super mici </postback>
+</button>
+<button>
+    <text>un abonament cu internet cu viteza exceptionala</text>
+    <postback>un abonament cu internet cu viteza exceptionala</postback>
+</button></template></category>
+<category><pattern>PACHETE AVANTAJOASE </pattern><template>Add response for PACHETE AVANTAJOASE </template></category>
+<category><pattern>DOAR TV </pattern><template>Add response for DOAR TV </template></category>
+<category><pattern>DOAR INTERNET</pattern><template>Add response for DOAR INTERNET</template></category>
+<category><pattern>UN TELEFON SI UN ABONAMENT LA PRETURI SUPER MICI </pattern><template>Add response for UN TELEFON SI UN ABONAMENT LA PRETURI SUPER MICI </template></category>
+<category><pattern>UN ABONAMENT CU INTERNET CU VITEZA EXCEPTIONALA</pattern><template>Add response for UN ABONAMENT CU INTERNET CU VITEZA EXCEPTIONALA</template></category>
+<category><pattern>DA </pattern><template>Care din varianteva intereseaza 
+<button>
+    <text>Sa aiba o viteza maixma</text>
+    <postback>Sa aiba o viteza maixma </postback>
+</button>
+<button>
+    <text>9 euro /luna</text>
+    <postback>9 euro /luna</postback>
+</button>
+<button>
+    <text>11 euro/luna </text>
+    <postback>11 euro /luna</postback>
+</button>
+<button>
+    <text>contract pe 12 luni</text>
+    <postback>contract pe 12 luni</postback>
+</button>
+<button>
+    <text>contract oe 24 de luni</text>
+    <postback>contract pe 24 de luni</postback>
+</button></template></category>
+<category><pattern>SA AIBA O VITEZA MAIXMA </pattern><template>Add response for SA AIBA O VITEZA MAIXMA </template></category>
+<category><pattern>9 EURO /LUNA</pattern><template>Add response for 9 EURO /LUNA</template></category>
+<category><pattern>11 EURO /LUNA</pattern><template>Add response for 11 EURO /LUNA</template></category>
+<category><pattern>CONTRACT PE 12 LUNI</pattern><template>Add response for CONTRACT PE 12 LUNI</template></category>
+<category><pattern>CONTRACT PE 24 DE LUNI</pattern><template>Add response for CONTRACT PE 24 DE LUNI</template></category>
+<category><pattern>SA AIBA O VITEZA MAIXMA </pattern><template>Add response for SA AIBA O VITEZA MAIXMA </template></category>
+<category><pattern>9 EURO /LUNA</pattern><template>Add response for 9 EURO /LUNA</template></category>
+<category><pattern>11 EURO /LUNA</pattern><template>Add response for 11 EURO /LUNA</template></category>
+<category><pattern>CONTRACT PE 12 LUNI</pattern><template>Add response for CONTRACT PE 12 LUNI</template></category>
+<category><pattern>CONTRACT OE 24 DE LUNI</pattern><template>Add response for CONTRACT OE 24 DE LUNI</template></category>
+
+<category><pattern>VREAU O OFERTA AVANTAJOASA </pattern><template>Add response for VREAU O OFERTA AVANTAJOASA </template></category>
+<category><pattern>AS DORI INTERNET NELIMITAT</pattern><template>Add response for AS DORI INTERNET NELIMITAT</template></category>
+<category><pattern>DORESC UN TELEFON LA ABONAMENT</pattern><template>Add response for DORESC UN TELEFON LA ABONAMENT</template></category>
+<category><pattern>TELEVIZIUNE </pattern><template>Add response for TELEVIZIUNE </template></category>
+</aiml>
